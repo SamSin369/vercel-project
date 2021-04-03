@@ -87,8 +87,10 @@ const Navbar = ({ toggle }) => {
             </NavMenu>
 
             <NavBtn>
-              <NavBtnLink>
+              <NavBtnLink to="/SignInForm">
                 <BsPersonLinesFill size={30} className="NavIconsRight" />
+              </NavBtnLink>
+              <NavBtnLink to="/ShoppingCart">
                 <GiShoppingCart size={30} className="NavIconsRight" />
               </NavBtnLink>
               {/* <NavBtnLink to="/signin">Sign in</NavBtnLink>
