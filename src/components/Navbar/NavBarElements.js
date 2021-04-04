@@ -28,7 +28,9 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
+
   color: #a99051;
+
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
@@ -37,6 +39,7 @@ export const NavLogo = styled(LinkR)`
   margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
+
   @media screen and(max-width: 768px) {
     display: none;
     position: absolute;
@@ -48,6 +51,7 @@ export const NavLogoText = styled.p`
   font-size: 1rem;
   color: #a99051;
   font-family: "Secular One", sans-serif;
+
 `;
 export const MobileIcon = styled.div`
   display: none;
@@ -91,6 +95,7 @@ export const NavLinks = styled(LinkScroll)`
   height: 100%;
   font-family: "Secular One", sans-serif;
   cursor: pointer;
+
   transition: all 0.5s ease-in-out;
   &.active {
     border-bottom: 3px solid green;
@@ -98,6 +103,7 @@ export const NavLinks = styled(LinkScroll)`
   &:hover {
     color: #a99051;
   }
+
 `;
 
 export const NavBtn = styled.nav`
@@ -110,11 +116,13 @@ export const NavBtn = styled.nav`
 `;
 
 export const NavBtnLink = styled(LinkR)`
+
   white-space: nowrap;
   padding: 10px 22px;
   color: white;
   font-size: 16px;
   font-family: "Secular One", sans-serif;
+
   outline: none;
   border: none;
   cursor: pointer;
@@ -123,7 +131,9 @@ export const NavBtnLink = styled(LinkR)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
+
     color: #7851a9;
+
   }
 `;
 

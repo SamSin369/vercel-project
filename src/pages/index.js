@@ -1,3 +1,13 @@
+
+import React, {useState} from 'react'
+import HeroSection from '../components/HeroSection'
+import Sidebar from '../components/Sidebar';
+import Navbar from '../components/Navbar'
+import InfoSection from '../components/infoSection';
+import Services from '../components/services/index'
+import Footer from '../components/Footer/index'
+import { homeObjOne, homeObjTwo, homeObjThree } from '../components/infoSection/Data';
+
 import React, { useState } from "react";
 import HeroSection from "../components/HeroSection";
 import Sidebar from "../components/Sidebar";
@@ -31,3 +41,4 @@ const Home = () => {
 };
 
 export default Home;
+

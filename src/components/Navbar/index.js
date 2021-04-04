@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
+
 import { GiPotionBall, GiShoppingCart } from "react-icons/gi";
 import { BsPersonLinesFill } from "react-icons/bs";
 import { IconContext } from "react-icons/lib";
 import { animateScroll as scroll } from "react-scroll";
+
 
 import {
   Nav,
@@ -15,7 +17,9 @@ import {
   NavLinks,
   NavBtn,
   NavBtnLink,
+
   NavLogoText,
+
   Icon,
   Bars,
 } from "./NavBarElements";
@@ -39,14 +43,18 @@ const Navbar = ({ toggle }) => {
     scroll.scrollToTop();
   };
 
+
+
   return (
     <>
       <IconContext.Provider value={{ color: "white", size: "50px" }}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
+
               <NavLogoText>Custom Herbs</NavLogoText>
               <GiPotionBall size={30} color="#a99051" />
+
             </NavLogo>
 
             <MobileIcon onClick={toggle}>
@@ -54,11 +62,13 @@ const Navbar = ({ toggle }) => {
             </MobileIcon>
             <NavMenu>
               <NavItem>
+
                 <NavLinks to="/" onClick={toggleHome}>
                   Home
                 </NavLinks>
               </NavItem>
               <NavItem>
+
                 <NavLinks
                   to="about"
                   smooth={true}
@@ -84,6 +94,42 @@ const Navbar = ({ toggle }) => {
                   Discover
                 </NavLinks>
               </NavItem>
+
+              <NavItem>
+                <NavLinks
+                  to="services"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                  activeClass={"active"}
+                >
+                  Services
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
+                  to="signup"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                  activeClass={"active"}
+                >
+                  Sign Up
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavBtn>
+                  <NavBtnLink to="/Products">Products</NavBtnLink>
+                </NavBtn>
+              </NavItem>
+            </NavMenu>
+            <NavBtn>
+              <NavBtnLink to="/signin">Sign in</NavBtnLink>
+
             </NavMenu>
 
             <NavBtn>
@@ -95,6 +141,7 @@ const Navbar = ({ toggle }) => {
               </NavBtnLink>
               {/* <NavBtnLink to="/signin">Sign in</NavBtnLink>
               <NavBtnLink to="/signup">Sign Up</NavBtnLink> */}
+
             </NavBtn>
           </NavbarContainer>
         </Nav>

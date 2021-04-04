@@ -1,7 +1,9 @@
 export const homeObjOne = {
   id: "about",
   lightBg: true,
+
   lightText: true,
+
   lightTextDesc: false,
   topLine: "Custom Herbs For Your Health",
   headline: "Hand Crafted Personalized Medicine",
@@ -11,15 +13,19 @@ export const homeObjOne = {
   imgStart: false,
   img: require("../../images/svg-1.svg"),
   alt: "Car",
+
   dark: false,
   primary: false,
   darkText: false,
+
 };
 export const homeObjTwo = {
   id: "discover",
   lightBg: false,
+
   lightText: false,
   lightTextDesc: true,
+
   topLine: "We Go Above And Beyond",
   headline: "First of its kind market for custom powerful herbal medicines",
   description:
@@ -28,13 +34,17 @@ export const homeObjTwo = {
   imgStart: true,
   img: require("../../images/svg-2.svg"),
   alt: "Car",
+
   dark: true,
   primary: true,
+
   darkText: true,
 };
 export const homeObjThree = {
   id: "about",
+
   lightBg: true,
+
   lightText: true,
   lightTextDesc: true,
   topLine: "Premium Bank",
@@ -45,7 +55,9 @@ export const homeObjThree = {
   imgStart: false,
   img: require("../../images/svg-3.svg"),
   alt: "Car",
+
   dark: false,
   primary: false,
+
   darkText: false,
 };

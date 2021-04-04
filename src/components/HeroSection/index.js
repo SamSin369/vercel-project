@@ -26,6 +26,7 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
+
         <HeroH1>Custom Herbs Tailored To Your Needs</HeroH1>
         <HeroP>See What Herbs Can Do For Your Well-Being!</HeroP>
         <HeroBtnWrapper>
@@ -37,6 +38,7 @@ const HeroSection = () => {
             dark="true"
           >
             Craft Your Custom Elixir {hover ? <ArrowForward /> : <ArrowRight />}
+
           </Button>
         </HeroBtnWrapper>
       </HeroContent>
