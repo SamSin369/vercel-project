@@ -5,7 +5,7 @@ import Home from "./pages";
 
 import SigninPage from "./pages/signin";
 import SignUpPage from "./pages/SignUp";
-
+import Products from "./components/ProductsPage/index";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Route path="/signin" component={SigninPage} exact />
 
         <Route path="/signup" component={SignUpPage} exact />
-
+        <Route path="/Products" component={Products} />
       </Switch>
     </Router>
   );

@@ -6,7 +6,6 @@ import { BsPersonLinesFill } from "react-icons/bs";
 import { IconContext } from "react-icons/lib";
 import { animateScroll as scroll } from "react-scroll";
 
-
 import {
   Nav,
   NavbarContainer,
@@ -17,9 +16,7 @@ import {
   NavLinks,
   NavBtn,
   NavBtnLink,
-
   NavLogoText,
-
   Icon,
   Bars,
 } from "./NavBarElements";
@@ -43,18 +40,14 @@ const Navbar = ({ toggle }) => {
     scroll.scrollToTop();
   };
 
-
-
   return (
     <>
       <IconContext.Provider value={{ color: "white", size: "50px" }}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-
               <NavLogoText>Custom Herbs</NavLogoText>
               <GiPotionBall size={30} color="#a99051" />
-
             </NavLogo>
 
             <MobileIcon onClick={toggle}>
@@ -62,13 +55,11 @@ const Navbar = ({ toggle }) => {
             </MobileIcon>
             <NavMenu>
               <NavItem>
-
                 <NavLinks to="/" onClick={toggleHome}>
                   Home
                 </NavLinks>
               </NavItem>
               <NavItem>
-
                 <NavLinks
                   to="about"
                   smooth={true}
@@ -129,8 +120,7 @@ const Navbar = ({ toggle }) => {
             </NavMenu>
             <NavBtn>
               <NavBtnLink to="/signin">Sign in</NavBtnLink>
-
-            </NavMenu>
+            </NavBtn>
 
             <NavBtn>
               <NavBtnLink to="/SignInForm">
@@ -141,7 +131,6 @@ const Navbar = ({ toggle }) => {
               </NavBtnLink>
               {/* <NavBtnLink to="/signin">Sign in</NavBtnLink>
               <NavBtnLink to="/signup">Sign Up</NavBtnLink> */}
-
             </NavBtn>
           </NavbarContainer>
         </Nav>

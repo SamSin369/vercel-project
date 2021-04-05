@@ -9,3 +9,9 @@
   padding: 1%;
   margin: 15%;
 }
+.ProductImage {
+  max-width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
