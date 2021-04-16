@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button, Container, Col, Row } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
 const SingleProduct = (props) => {
   console.log(props);
   return (
