@@ -113,9 +113,17 @@ const Navbar = ({ toggle }) => {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavBtn>
-                  <NavBtnLink to="/Products">Products</NavBtnLink>
-                </NavBtn>
+                <NavLinks
+                  to="signup"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                  activeClass={"active"}
+                >
+                  Products
+                </NavLinks>
               </NavItem>
             </NavMenu>
             <NavBtn>

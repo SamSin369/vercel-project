@@ -17,7 +17,6 @@ export const homeObjOne = {
   dark: false,
   primary: false,
   darkText: false,
-
 };
 export const homeObjTwo = {
   id: "discover",
@@ -28,8 +27,7 @@ export const homeObjTwo = {
 
   topLine: "We Go Above And Beyond",
   headline: "First of its kind market for custom powerful herbal medicines",
-  description:
-    "Get acesdajasldkfjak aghalknlabjlkabljkasadjkladvjklavjl;kdasjl;abjklalabsdkljakslbj",
+  description: "See How We Can Make A Difference!",
   buttonLabel: "Learn More",
   imgStart: true,
   img: require("../../images/svg-2.svg"),
@@ -40,24 +38,24 @@ export const homeObjTwo = {
 
   darkText: true,
 };
-export const homeObjThree = {
-  id: "about",
+// export const homeObjThree = {
+//   id: "about",
 
-  lightBg: true,
+//   lightBg: true,
 
-  lightText: true,
-  lightTextDesc: true,
-  topLine: "Premium Bank",
-  headline: "Unlimited Transaction With Zero Fees",
-  description:
-    "Get acesdajasldkfjak aghalknlabjlkabljkasadjkladvjklavjl;kdasjl;abjklalabsdkljakslbj",
-  buttonLabel: "Get started",
-  imgStart: false,
-  img: require("../../images/svg-3.svg"),
-  alt: "Car",
+//   lightText: true,
+//   lightTextDesc: true,
+//   topLine: "Premium Bank",
+//   headline: "Unlimited Transaction With Zero Fees",
+//   description:
+//     "Get acesdajasldkfjak aghalknlabjlkabljkasadjkladvjklavjl;kdasjl;abjklalabsdkljakslbj",
+//   buttonLabel: "Get started",
+//   imgStart: false,
+//   img: require("../../images/svg-3.svg"),
+//   alt: "Car",
 
-  dark: false,
-  primary: false,
+//   dark: false,
+//   primary: false,
 
-  darkText: false,
-};
+//   darkText: false,
+// };

@@ -6,7 +6,7 @@ const Products = () => {
   console.log(DummyData);
   return (
     <Container>
-      <Row>
+      <Row className="align-items-end">
         {DummyData.arrayOfProducts.map((product) => {
           return (
             <Col xs="12" md="6" xl="4">
