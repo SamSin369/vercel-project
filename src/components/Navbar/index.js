@@ -44,7 +44,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              <NavLogoText>Custom Herbs</NavLogoText>
+              <NavLogoText>Custom Herbs!</NavLogoText>
               <GiPotionBall size={30} color="#a99051" />
             </NavLogo>
 
