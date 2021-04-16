@@ -1,5 +1,3 @@
-
-import React from "react";
 import styled from "styled-components";
 import { Link as LinkScroll } from "react-scroll";
 
@@ -21,5 +19,4 @@ export const Button = styled(LinkScroll)`
     transition: all 0.2s ease-in-out;
     background: ${({ primary }) => (primary ? "#a99051" : "#bf1d01")};
   }
-
 `;
